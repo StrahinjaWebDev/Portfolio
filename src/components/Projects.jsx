@@ -1,9 +1,9 @@
 import React from 'react'
 
-import FirstImg from '../assets/FirstProject.jpg'
-import SecondImg from '../assets/SecondProject.jpg'
-import ThirdImg from '../assets/ThirdProject.jpg'
-import FourthImg from '../assets/FourthProject.jpg'
+import FirstImg from '../assets/FirstProject.png'
+import SecondImg from '../assets/SecondProject.png'
+import ThirdImg from '../assets/ThirdProject.png'
+import FourthImg from '../assets/FourthProject.png'
 import { ProjectItem } from './ProjectItem'
 
 export const Projects = () => {
@@ -11,12 +11,12 @@ export const Projects = () => {
     <div id='projects' className='max-w-[1040px] m-auto md:pl-20 p-4 py-16'>
       <h1 className='text-4xl font-bold text-center text-[#001b5e]'>Projects</h1>
 
-      <p className='text-center py-8 font-bold'>My modern pro</p>
-      <div className='grid sm:grid-cols-2 gap-12'>
-        <ProjectItem img={FirstImg} title='T App' />
-        <ProjectItem img={SecondImg} title='Ti App' />
-        <ProjectItem img={ThirdImg} title='Tit App' />
-        <ProjectItem img={FourthImg} title='Titl App' />
+      <p className='text-center py-8 font-bold'>My portfolio features a variety of projects that showcase my skills and expertise in web development. Each project is built using modern web technologies  including HTML, CSS, JavaScript frameworks such as React and Nextjs.</p>
+      <div className='grid sm:grid-cols-2 gap-10'>
+        <ProjectItem img={FirstImg} title='Tax Calculator'  desc='I created a tax calculator using React, which allows users to easily calculate their tax for the year.' />
+        <ProjectItem img={SecondImg} title='XBOX' desc='I built copy of a website using React and Tailwind that draws inspiration from Xbox'/>
+        <ProjectItem img={ThirdImg} title='Metaverse' desc='Website created using Framer Motion.The website features UI and UX interactive animations.' />
+        < ProjectItem img={FourthImg} title='Gost Shop' desc='Project that Im particularly proud of is a  website that I built from scratch using React and Redux.'  /> 
       </div>
     </div>
   )
